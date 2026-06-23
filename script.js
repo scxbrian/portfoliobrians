@@ -55,4 +55,22 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    // Read More Toggle Logic
+    document.addEventListener('click', (e) => {
+        if (e.target && e.target.classList.contains('btn-read-more')) {
+            const btn = e.target;
+            const moreContent = btn.previousElementSibling;
+            
+            if (moreContent && moreContent.classList.contains('desc-more')) {
+                if (moreContent.style.display === 'none') {
+                    moreContent.style.display = 'block';
+                    btn.textContent = 'Read Less';
+                } else {
+                    moreContent.style.display = 'none';
+                    btn.textContent = 'Read More';
+                }
+            }
+        }
+    });
 });
