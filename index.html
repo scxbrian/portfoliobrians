@@ -63,7 +63,10 @@
                 <section id="about" class="section active-section fade-in visible">
                     <h2 class="section-title">About Me</h2>
                     <p class="about-text">
-                        Dedicated Backend Software Engineer with a primary focus on Python and an expanding skill set in Go, possessing a strong preference for server-side logic, API design, and data architecture over frontend development. Currently mapping out backend requirements for scalable SaaS solutions. Seeking a backend engineering role to contribute a rigorous problem-solving mindset, a drive for technical excellence, and a commitment to writing clean, foundational code to a professional engineering team.
+                        I am a Backend Software Engineer specialized in building high-performance, server-side architectures using Python and Go. My expertise centers squarely on robust API design, containerized microservices, and relational database optimization, with a deliberate and exclusive focus on the data and infrastructure layer.
+                    </p>
+                    <p class="about-text">
+                        From managing bare-metal Linux server environments to engineering real-world distributed systems—like FlowSignal, a data analytics platform—I turn complex requirements into clean, optimized code. I build infrastructure designed to scale smoothly, handle heavy data workflows, and deliver absolute reliability.
                     </p>
 
                     <h3 class="subsection-title">What I'm Doing</h3>
@@ -138,22 +141,6 @@
                     <div class="resume-category">
                         <div class="resume-icon-title">
                             <span class="book-icon">📖</span>
-                            <h3>Education &amp; Certifications</h3>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <h4 class="timeline-title">Certificate in Software Development</h4>
-                                <p class="timeline-subtitle">Power Learn Project (PLP)</p>
-                                <p class="timeline-date">Graduated Dec 2025</p>
-                                <p class="timeline-desc">Completed an intensive, comprehensive software engineering program focusing on core development principles, web technologies, and the broader tech ecosystem.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="resume-category">
-                        <div class="resume-icon-title">
-                            <span class="book-icon">📖</span>
                             <h3>Experience</h3>
                         </div>
                         <div class="timeline">
@@ -170,6 +157,47 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="resume-category">
+                        <div class="resume-icon-title">
+                            <span class="book-icon">📖</span>
+                            <h3>Education &amp; Certifications</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">Certificate in Software Development</h4>
+                                <p class="timeline-subtitle">Power Learn Project (PLP)</p>
+                                <p class="timeline-date">Graduated Dec 2025</p>
+                                <p class="timeline-desc">Completed an intensive, comprehensive software engineering program focusing on core development principles, web technologies, and the broader tech ecosystem.</p>
+                                <a href="Assets/PowerLearnProjectSoftWareDev.pdf" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Certificate</a>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">OctoPrep 8-Week Preparation Program</h4>
+                                <p class="timeline-subtitle">OctoPrep</p>
+                                <p class="timeline-date">Completed 2026</p>
+                                <p class="timeline-desc">Completed an intensive 8-week program to prepare for software engineering roles and begin the job application process.</p>
+                                <a href="Assets/OctoPrep%20-%208%20weeks%20to%20get%20prep%20and%20start%20applying.pdf" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Certificate</a>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">SQL Beginner Certificate</h4>
+                                <p class="timeline-subtitle">Database Management</p>
+                                <p class="timeline-date">2026</p>
+                                <p class="timeline-desc">Completed a foundational course covering SQL syntax, database queries, and data management.</p>
+                                <a href="Assets/SQLbiginnercert.pdf" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Certificate</a>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">PostgreSQL Certificate</h4>
+                                <p class="timeline-subtitle">Database Management</p>
+                                <p class="timeline-date">2026</p>
+                                <p class="timeline-desc">Completed a course on PostgreSQL, covering advanced database design, querying, and management.</p>
+                                <a href="Assets/Postgresql.pdf" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="cv-content" style="margin-top: 3rem;">
                         <a href="Assets/brianmain.pdf" download="Brian_Kennedy_CV.pdf" class="btn btn-outline" style="width: 100%; max-width: 300px; display: flex; justify-content: center; gap: 10px; margin: 0 auto;">
@@ -182,43 +210,91 @@
                 <section id="portfolio" class="section fade-in">
                     <h2 class="section-title">Portfolio</h2>
                     
-                    <ul class="portfolio-filters">
-                        <li class="filter-item active" data-filter="all">All</li>
-                        <li class="filter-item" data-filter="python">Python</li>
-                        <li class="filter-item" data-filter="go">Go</li>
-                        <li class="filter-item" data-filter="data">Data Pipelines</li>
-                    </ul>
-
-                    <div class="portfolio-grid">
-                        <div class="portfolio-card" data-category="python">
-                            <div class="portfolio-img-box">
-                                <div class="placeholder-logo" style="color: #0f766e;">FlowSignal</div>
+                    <div class="portfolio-split" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: start;">
+                        <div class="resume-category">
+                            <div class="resume-icon-title">
+                                <span class="book-icon" style="background: transparent; box-shadow: none; font-size: 2rem;"><i class="devicon-python-plain colored"></i></span>
+                                <h3>Python Projects</h3>
                             </div>
-                            <div class="portfolio-info">
-                                <h4>FlowSignal Backend API</h4>
-                                <p>Python</p>
+                        <div class="timeline" id="projects-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot" style="background-color: transparent; box-shadow: none; left: -44px; font-size: 1.8rem; top: -5px;"><i class="devicon-python-plain colored"></i></div>
+                                <h4 class="timeline-title">Word Counter</h4>
+                                <p class="timeline-subtitle">Python</p>
+                                <div class="timeline-desc">
+                                    <p>A lightweight command-line interface (CLI) tool built in Python that reads a specified text file and calculates the total number of words it contains.</p>
+                                    <div class="desc-more" style="display: none; margin-top: 10px;">
+                                        <p style="margin-bottom: 5px;"><strong>Features:</strong></p>
+                                        <ul style="margin-left: 20px; list-style-type: disc;">
+                                            <li>Word Calculation: Reads the entire file content and returns an accurate total word count.</li>
+                                            <li>Robust Error Handling: Safely handles cases where the specified file is missing with a clear error message.</li>
+                                            <li>Encoding Support: Automatically reads files using utf-8 encoding for broad character compatibility.</li>
+                                            <li>Catch-All Exception Handling: Gracefully catches unexpected system or runtime errors without crashing.</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-read-more" style="background: none; border: none; color: var(--accent); cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: 600; margin-top: 5px; text-decoration: underline;">Read More</button>
+                                </div>
+                                <a href="https://github.com/scxbrian/wordcounter" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Repository</a>
                             </div>
-                        </div>
-                        <div class="portfolio-card" data-category="go">
-                            <div class="portfolio-img-box">
-                                <div class="placeholder-logo" style="color: #d946ef;">BomaShop</div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot" style="background-color: transparent; box-shadow: none; left: -44px; font-size: 1.8rem; top: -5px;"><i class="devicon-python-plain colored"></i></div>
+                                <h4 class="timeline-title">Number Guessing Game</h4>
+                                <p class="timeline-subtitle">Python</p>
+                                <div class="timeline-desc">
+                                    <p>A fun, interactive command-line interface (CLI) game written in Python where players have a limited number of attempts to guess a randomly generated number.</p>
+                                    <div class="desc-more" style="display: none; margin-top: 10px;">
+                                        <p style="margin-bottom: 5px;"><strong>Features:</strong></p>
+                                        <ul style="margin-left: 20px; list-style-type: disc;">
+                                            <li>Random Generation: Generates a secret number between 1 and 100 for every new game.</li>
+                                            <li>Directional Feedback: Tells the player if their guess is "Too high!" or "Too low!" after each attempt.</li>
+                                            <li>Attempt Tracking: Keeps track of the remaining guesses, allowing a maximum of 10 attempts.</li>
+                                            <li>Input Validation: Safely handles non-integer inputs without interrupting the gameplay loop.</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-read-more" style="background: none; border: none; color: var(--accent); cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: 600; margin-top: 5px; text-decoration: underline;">Read More</button>
+                                </div>
+                                <a href="https://github.com/scxbrian/numberguessing" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Repository</a>
                             </div>
-                            <div class="portfolio-info">
-                                <h4>BomaShop Microservices</h4>
-                                <p>Go</p>
-                            </div>
-                        </div>
-                        <div class="portfolio-card" data-category="data">
-                            <div class="portfolio-img-box">
-                                <div class="placeholder-logo" style="color: #3b82f6;">DataFlow</div>
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Data Pipeline Architect</h4>
-                                <p>Data Pipelines</p>
+                            <div class="timeline-item">
+                                <div class="timeline-dot" style="background-color: transparent; box-shadow: none; left: -44px; font-size: 1.8rem; top: -5px;"><i class="devicon-python-plain colored"></i></div>
+                                <h4 class="timeline-title">Calculator</h4>
+                                <p class="timeline-subtitle">Python</p>
+                                <div class="timeline-desc">
+                                    <p>A straightforward, command-line interface (CLI) calculator built in Python that handles basic arithmetic operations with built-in error handling.</p>
+                                    <div class="desc-more" style="display: none; margin-top: 10px;">
+                                        <p style="margin-bottom: 5px;"><strong>Features:</strong></p>
+                                        <ul style="margin-left: 20px; list-style-type: disc;">
+                                            <li>Addition (+), Subtraction (-), Multiplication (*)</li>
+                                            <li>Division (/) with safeties to prevent division-by-zero errors.</li>
+                                            <li>Input Validation: Gracefully handles non-numeric inputs without crashing.</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-read-more" style="background: none; border: none; color: var(--accent); cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: 600; margin-top: 5px; text-decoration: underline;">Read More</button>
+                                </div>
+                                <a href="https://github.com/scxbrian/calculator" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Repository</a>
                             </div>
                         </div>
                     </div>
-                </section>
+
+                    <div class="resume-category">
+                        <div class="resume-icon-title">
+                            <span class="book-icon" style="background: transparent; box-shadow: none; font-size: 2.2rem;"><i class="devicon-go-original-wordmark colored"></i></span>
+                            <h3>Go Projects</h3>
+                        </div>
+                        <div class="timeline" id="go-projects-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot" style="background-color: transparent; box-shadow: none; left: -44px; font-size: 1.8rem; top: -5px;"><i class="devicon-go-original-wordmark colored"></i></div>
+                                <h4 class="timeline-title">[Go Project Name]</h4>
+                                <p class="timeline-subtitle">Go</p>
+                                <div class="timeline-desc">
+                                    <p>Ready for project description.</p>
+                                </div>
+                                <a href="#" target="_blank" class="btn btn-outline btn-sm" style="margin-top: 12px;">View Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
                 <!-- Contact Section -->
                 <section id="contact" class="section fade-in">
