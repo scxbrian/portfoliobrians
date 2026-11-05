@@ -6,7 +6,7 @@ This is the source for my personal portfolio. It is a deliberately small, depend
 
 This README does more than explain how to run the project. It also records why the site is built the way it is, what trade-offs that choice carries, and where the project is heading, because those decisions are the part of a portfolio that is easiest to forget and most useful to be able to explain.
 
-Table of contents
+Table of content
 What this project is
 Repository layout
 Running it locally
